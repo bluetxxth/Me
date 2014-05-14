@@ -1,0 +1,32 @@
+/* Tables 
+-------------------------------------------------------------- */
+table {
+	float:left;
+	margin-bottom: 1.4em;
+	margin: 0 auto;
+}
+
+th {
+	font-weight: bold;
+	background: black;
+	color: white;	
+}
+
+th,td,caption {
+	padding: 4px 5px 4px 5px;
+
+ 
+}
+
+
+tbody tr:nth-child(even) td {
+	background: #E1DAD4;
+}
+
+tbody tr:hover td {
+	background: #ffffff;
+}
+
+tfoot {
+	font-style: italic;
+}

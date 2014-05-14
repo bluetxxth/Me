@@ -1,0 +1,223 @@
+ /*div for the pdf document
+ --------------------------------------------------------
+ */
+ #pdf 
+ {
+	height:1150px;
+	margin:auto;
+	width: 800px ;
+	display:block; /*to make it fit inside the parent*/
+	position:inherit;
+
+ }
+ 
+ 
+ /* for the main layout
+ --------------------------------
+ */
+
+.resumeCategories{
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-color: #000000;
+	overflow: auto;
+	padding: 10px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	min-height:100px;
+	text-align: left;
+	border: 1px solid #999;
+	box-shadow: 10px 100px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	border-radius: 0px;
+	background: hsla(0, 1%, 100%, 0.95);
+	padding-bottom:20px;
+}
+
+
+.itemCv {
+	margin-top:20px;
+	border:solid 1px black;
+	/*border-radius:20px;*/
+	float: left;
+	margin-bottom:20px;
+	margin-left:20px;
+	background-color: #ffffff;
+	padding: 10px;
+	wrord-wrap: break-all;
+	max-width:150px;
+	min-width:150px;
+	text-align:center;
+	padding:10px;
+}
+
+.resumeOptions{
+	
+	margin:0;
+}
+
+
+.leftRightColumn{
+	display:block;
+}
+
+.resumeLeftColumn{
+    float: left;
+	
+	background-color: white;
+	min-width: 20%;
+	max-width:50%;
+	margin-bottom:30px;
+
+}
+/*
+.column{
+	position:relative;
+	float:left;
+	background-color: white;
+	heigth:150px;
+	margin-bottom:30px;
+
+}
+*/
+
+.column-large{
+	margin-top:20px;
+	/*border:solid 1px black;
+	border-radius:20px;*/
+	float: left;
+	margin-bottom:20px;
+	margin-left:0;
+	margin-right:0;
+	/*background-color:#CCCCB2;*/
+	padding: 10px;
+	max-width:325px;
+	max-width:325px;
+	height: 300px;
+	text-align:left;
+	padding:10px;
+
+}
+
+.column-medium{
+	margin-top:10px;
+	/*border:solid 1px black;
+	border-radius:20px;*/
+	float: left;
+	margin-bottom:20px;
+	margin-left:0;
+	margin-right:0;
+   /*background-color:#CCCCB2;*/
+	padding: 10px;
+	min-width:325px;
+	max-width:325px;
+	height: 250px;
+	text-align:left;
+	padding:10px;
+
+}
+
+.column-small{
+	margin-top:10px;
+	/*border:solid 1px black;
+	border-radius:20px;*/
+	float: left;
+	margin-bottom:20px;
+	margin-left:0;
+	margin-right:0;
+	/*background-color:#CCCCB2;*/
+	padding: 10px;
+	min-width:325px;
+	max-width:325px;
+	height: 225px;
+	text-align:left;
+	padding:10px;
+
+}
+
+.column-smaller{
+	margin-top:10px;
+	/*border:solid 1px black;
+	border-radius:20px;*/
+	float: left;
+	margin-bottom:20px;
+	margin-left:0;
+	margin-right:0;
+	/*background-color:#CCCCB2;*/
+	padding: 10px;
+	min-width:325px;
+	max-width:325px;
+	height: 180px;
+	text-align:left;
+	padding:10px;
+
+}
+
+.column-tiny{
+	margin-top:10px;
+	/*border:solid 1px black;
+	border-radius:20px;*/
+	float: left;
+	margin-bottom:20px;
+	margin-left:0;
+	margin-right:0;
+	/*background-color:#CCCCB2;*/
+	padding: 10px;
+	min-width:325px;
+	max-width:325px;
+	height: 75px;
+	text-align:left;
+	padding:10px;
+
+}
+
+.intro{
+	float:left;
+    overflow:auto;
+	background-color: white;
+	min-width: 30%;
+	max-width:50%;
+	margin-bottom:30px;
+	margin-left:10px;
+
+}
+
+
+
+.wrapper{
+	width: 90%;
+    margin: 0 auto;
+	display:block;
+	text-align: left;
+}
+
+.resumeFieldset{
+	
+	margin-top:0;
+	margin-left:5px;
+	border:0;
+}
+
+/*--- LISTS ---*/
+ul, ol {
+  margin-bottom: 24px;
+    /* Remember, if your magic number is
+    different to this, use your own. */
+}
+
+ul {
+  list-style: square outside;
+}
+
+ul ul,
+ol ol {
+  margin: 400 0 100px;
+}
+
+.uList{
+	
+	  margin: 0 0 0 0px;
+}
+

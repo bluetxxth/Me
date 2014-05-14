@@ -1,0 +1,860 @@
+/** 
+ * My own style, based on HTML5Boilerplate standard style.
+ */
+@import url(../css/style.css);
+
+@import url(theme//output.css);
+
+@import url(../theme/css/source.css);
+
+@import url(../theme/css/blog.css);
+
+@import url(../theme/css/gallery.css);
+
+@import url(../theme/css/figure.css);
+
+@import url(../theme/css/resume.css);
+
+@import url(../theme/css/buttons.css);
+
+@import url(../theme/css/user.css);
+
+@import url(../theme/css/admin.css);
+
+@import url(../theme/css/product.css);
+
+@import url(../theme/css/resume.css);
+
+
+@import url(http://fonts.googleapis.com/css?family=Shojumaru);
+
+/**
+ * Structure
+ */
+html {
+	overflow-y: scroll;
+}
+
+body {
+	margin: 0;
+	padding: 0; background-color : #fff;
+	color: #333;
+	background-color: #fff;
+	/*background-image: url('../img/fractalmod3.png');*/
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+}
+
+/*header and header - related
+---------------------------------------------------------------
+*/
+#above a {
+	margin-bottom: 4px;
+	padding-left: 1em;
+	color: #000000;
+	font-size: 1.1em;
+	text-weigth: bold;
+}
+
+#header {
+	width: 100%;
+	/*border: 2px solid #999;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;*/
+	position: relative;
+	height: 170px;
+	background-color: black;
+}
+
+#headerPartLeft {
+	float: left;
+	background: #000000;
+	height: 140px;
+
+	margin-left: 50px;
+	margin-top: 5px;
+	
+}
+
+#headerPartCenter {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#underConstruction {
+	float: left;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+#headerPartRight {
+	margin-left:5px;
+	float: right;
+}
+
+#banner a {
+	text-decoration: none;
+}
+
+.site-logo {
+	display: table-cell;
+	width: inherit;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.site-title {
+	font-family: verdana;
+	line-height: 0;
+	font-size: 2.5em;
+	padding-left: 30px;
+	color: #333333;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top:95px;
+	/*text-shadow: #ccc 4px -4px 4px;*/
+}
+
+.titleLine {
+	padding-left: 20px;
+	color: silver;
+	margin-left: 30px;
+}
+
+.site-slogan {
+	color: white;
+	font-family: monospace;
+	line-height: 0;
+	font-size: 1.5em;
+	padding-left: 35px;
+	margin-top:20px;
+}
+
+.buttonHolder {
+	clear: both;
+}
+
+.button {
+	margin-top: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	width: 120px;
+	height: 30px;
+	background-color: black;
+	border-style: double;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	overflow: auto;
+}
+
+.button:hover {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	width: 120px;
+	height: 30px;
+	background-color: white;
+	border-style: double;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	overflow: auto;
+}
+
+/*Transparent roll-over image
+----------------------------------------------
+*/
+img:hover {
+	opacity: 0.4;
+	filter: alpha(opacity = 40); /* For IE8 and earlier */
+}
+
+/**
+ * Navbar
+ */
+#navbar2 {
+	height: 30px;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px 8px;
+	background: #000000;
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
+}
+
+#navbar2 a {
+	padding: 6px 15px;
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#navbar2 a:hover,#navbar a.selected {
+	background: #ffffff;
+	color: #000000;
+	border: 2px solid #666;
+}
+
+#navbar1 {
+	height: 30px;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px 8px;
+	background: #000000;
+	vertical-align: top;
+	bottom: 0;
+}
+
+#navbar1 a {
+	padding: 6px 15px;
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#navbar1 a:hover,#navbar a.selected {
+	background: #ffffff;
+	color: #000000;
+	border: 2px solid #666;
+}
+
+/*Div for pagination details
+----------------------------------------
+*/
+.pagination {
+	clear: both;
+	width: 960px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#banner {
+	display: table;
+	margin-bottom: 10px;
+}
+
+/* Main section
+----------------------------------
+*/
+.justify,.justify-para p {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#main {
+	font-family:Trebuchet MS;
+	margin: 20px auto;
+	padding: 1em;
+	width: 90%;
+	background-color: #fff;
+	overflow:auto;
+	/*border: 1px solid #999;
+	box-shadow: 10px 100px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	border: dotted 1px;
+	border-radius: 0px;
+	background: hsla(0, 1%, 100%, 0.95);*/
+}
+
+
+
+.horizontalDivider{
+	
+	clear:both;
+	width:80%;
+	color:#ffffD1;
+}
+
+.leftColumn{
+   float: left;
+	overflow:auto;
+	background-color: white;
+	min-width: 50%;
+	max-width:60%;
+	min-height: 250px;
+	margin-bottom:30px;
+	
+}
+
+.rightColumn{
+    float: left;
+	overflow:auto;
+	background-color: white;
+	min-width: 40%;
+	max-width:40%;
+	min-height: 250px;
+}
+
+.categories {
+	margin: 0 auto;
+	width:90%;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-color: #000000;
+	overflow: auto;
+	padding: 5px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: left;
+}
+
+.showcaseCategories {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-color: #000000;
+	overflow: auto;
+	padding: 5px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: left;
+	border:solid 1px black;
+	
+}
+
+h4{
+	color:brown;
+}
+
+#mainWrapper {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+
+/* Misc. wrapper
+ -------------------------------
+*/
+
+.wrapper{
+	width: 90%;
+	margin:0 auto;
+	margin-left:10%;
+}
+
+
+.showcaseTitleHeading {
+	padding-top: 20px;
+	width: 200px;
+	margin: auto;
+	width: 50%;
+}
+
+/* Layout for index.php
+----------------------------------------------
+*
+.categories {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	border-radius: 20px;
+	overflow: auto;
+	padding: 5px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+*/
+/* .categories { */
+/* 	margin: 20px auto; */
+/* 	padding: 1em; */
+/* 	background-color: #fff; */
+/* 	border: 1px solid #999; */
+/* 	overflow: auto; */
+/* 	box-shadow: 10px 100px 10px #888; */
+/* 	box-shadow: 10px 10px 10px #888; */
+/* 	box-shadow: 10px 10px 10px #888; */
+/* 	border: dotted 1px; */
+/* 	border-radius: 0px; */
+/* 	background: hsla(0, 1%, 100%, 0.95); */
+/* } */
+
+#mainUsers {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	background-color: #ffffff;
+	height: 150px;
+}
+
+#mainItems {
+	margin:0 auto;
+	width: 90%;
+
+	height: 100%;
+}
+
+.itemShowcase {
+	margin-top:20px;
+	border:solid 1px black;
+	border-radius:20px;
+	float: left;
+	margin-bottom:20px;
+	margin-left:20px;
+	background-color: #ffffff;
+	padding: 10px;
+	wrord-wrap: break-all;
+	max-width:150px;
+	min-width:150px;
+	text-align:center;
+	padding:10px;
+}
+
+.itemWrapper{
+	overflow:auto;
+	margin-bottom:20px;
+}
+
+
+
+.itemIndex {
+	
+	/*border:solid 1px black;*/
+	float: left;
+	background-color: #ffffff;
+	wrord-wrap: break-all;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:10px;
+	max-width:130px;
+	min-width:130px;
+	min-heigth:200px;
+	text-align:center;
+	
+}
+
+.language{
+	color:#4C4C33;
+	margin: 0;
+    padding: 0;
+}
+
+.status{ 
+	margin:0;
+    padding: 0;
+}
+
+#itemItems img {
+	border: 1px solid #000000;
+
+	
+}
+
+#mainPost {
+	width: 90%;
+	text-align: center;
+}
+
+.postItems {
+	background-color: #ffffff;
+	text-align: left;
+	font-size:16px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	/*border: 1px solid #000000;*/
+	margin-top:10px;
+	margin-bottom: 5px;
+	/*border-radius: 0px;
+	
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888;*/
+}
+
+.postHorizontalLine{
+	margin:1px;
+	width:90%;
+}
+
+.more a {
+	clear: both;
+}
+
+.categories img {
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	margin:0 auto;
+	position
+}
+
+.itemShowcase img {
+	border-color: black;
+	border-style: solid;
+	margin:0 auto;
+	position
+}
+
+#userWrapper {
+	margin: auto;
+	width: 50%;
+}
+
+#categoryWrapper {
+	margin: auto;
+	width: 90%;
+}
+
+#category {
+	margin: auto;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.userItems {
+	float: left;
+	text-align: center;
+	overflow: auto;
+	min-height: 40px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+#mainUsers {
+	margin: auto;
+	width: 800px;
+	text-align: center;
+	height: 100%;
+}
+
+#userItems img {
+	border: 1px solid #000000;
+}
+
+#description {
+	text-align: left;
+	word-wrap: break-word;
+}
+
+/*Footer and footer-related
+-----------------------------------------------------------
+*
+#footerwrapper {
+	height: 50px;
+}
+
+#footer {
+	margin: 8px auto;
+	padding: 1em;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #999;
+	border-radius: 0px;
+}
+
+#footer1 {
+	font-size: 0.80em;
+	color: black;
+	height: 90px;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	padding: 20px;
+}
+
+#footer2 {
+	font-size: 0.80em;
+	color: silver;
+	background-color: black;
+	padding: 50px;
+	text-wrap: normal;
+}
+
+#footer3 {
+	background-color: #ffffff;
+	overflow: auto;
+	text-align: center;
+	color: #fffff0;
+	border: 2px solid #999;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+*/
+
+/*miscellaneous footer styles
+------------------------------------------------------------
+*/
+#footer {
+	font-size: 0.9em;
+}
+
+#footer,#footer a {
+	color: #666;
+}
+
+#footer a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+}
+
+
+
+
+
+/* article byline & signature
+-------------------------------------------------------- 
+
+*/
+footer.byline {
+	
+	width:95%;
+	clear: both;
+	border-top: 1px dashed #999999;
+	margin-top: 2em;
+	padding: 1em;
+	color: #555555;
+	font-size: smaller;
+	font-style: italic;
+}
+
+/*Footer byline footer box shadow*/
+.box {
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em;
+	height: 100px;
+	background: #ffffff;
+	margin-top:10px;
+	margin-top:10px;
+	font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis 
+
+
+
+}
+
+.shadow {
+	box-shadow: 10px 100px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	box-shadow: 10px 10px 10px #888;
+	border: dotted 1px;
+	border-radius: 0px;
+}
+
+
+
+/* article byline & signature
+-------------------------------------------------------- 
+*/
+footer.byline {
+	clear: both;
+	border-top: 1px dashed #999999;
+	margin-top: 2em;
+	padding: 1em;
+	color: #555555;
+	font-size: smaller;
+	font-style: italic;
+}
+
+
+
+/*Main section
+---------------------------------------------------
+*/
+#main {
+	min-height: 40em;
+}
+
+/**
+ * Fonts
+ */
+h1 {
+	/*text-transform: uppercase;*/
+	font-family: sans-serif;
+}
+
+h1,h2 {
+	border-bottom: 1px solid #dddddd;
+}
+
+/**
+ * Links
+ */
+a,a:visited {
+	color: #0066FF;
+}
+
+/* No border around linked images */
+
+/* figure & figcaption
+-------------------------------------------------------- 
+*/
+article figure
+ {
+	/*border: 1px dotted #000000;*/
+	padding: 5px;
+	padding-bottom:10px;
+	margin: 1em;
+	text-align: center;
+	width: 60px;
+	height: auto;
+
+}
+
+/**
+ * Figure and images
+ */
+figure {
+	display: table;
+	width: 1px;
+	margin: 1em;
+	border: 1px solid #eee;
+	border-radius: 1px;
+}
+
+/*------------------------------------*
+  IMAGES
+*------------------------------------*
+
+#me {
+  float: right;
+  margin: 0 0 0 20px;
+  display: block;
+  width: 148px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}*/
+
+/*--- LISTS ---*/
+ul, ol {
+  margin-bottom: 24px;
+    /* Remember, if your magic number is
+    different to this, use your own. */
+}
+
+ul {
+  list-style: disc outside;
+}
+
+.slogan2{
+	margin-top:5px;
+	margin-left:30px;
+	font-size:16px;
+	color:white;
+	font-style:oblique;
+	font-family:cursive;
+}
+
+
+
+ul ul,
+ol ol {
+  margin: 2px 0 0 30px;
+}
+
+
+/*--- QUOTES ---*/
+blockquote {
+  margin: 0 60px 0 45px;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  text-indent: -0.4em;
+}
+
+blockquote b {
+  display: block;
+  text-indent: 0;
+}
+
+
+
+img,figcaption {
+	display: table-row;
+	vertical-align: bottom;
+}
+
+a figcaption,figcaption {
+	font-style: italic;
+	font-size: smaller;
+	color: #666;
+}
+
+figure.right {
+	margin-right: 0;
+}
+
+figure.top {
+	margin-top: 0;
+}
+
+figure.fullwidth {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a:hover figure {
+	background-color: #eee;
+	border: 2px solid #ffffff;
+}
+
+
+
+/**
+ * byline & signature
+ */
+.byline {
+	clear: both;
+	border-top: 1px dashed #999;
+	margin-top: 2em;
+	padding: 1em;
+	color: #666;
+	font-size: smaller;
+	font-style: italic;
+	oveflow:auto;
+}
+
+.byline img {
+	padding: 2px;
+	outline: #999 groove 1px;
+}
+
+/**
+ * Misc classes
+ */
+.right {
+	float: right;
+}
